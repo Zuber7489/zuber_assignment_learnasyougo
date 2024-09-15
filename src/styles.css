@@ -102,8 +102,16 @@ body {
     background-color: hsl(0, 0%, 100%);
     color: hsl(207, 26%, 17%);
   }
+  body.dark-mode .navbar {
+    background-color: hsl(209, 23%, 22%);
+  }
   
   body.dark-mode .country-card {
     background-color: hsl(209, 23%, 22%);
+  }
+  
+  body.dark-mode .info-item {
+    color: hsl(0, 0%, 100%);
+
   }
   

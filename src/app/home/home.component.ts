@@ -84,7 +84,7 @@ export class HomeComponent {
     {
       id: 6,
       name: 'South Africa',
-      flag: 'https://upload.wikimedia.org/wikipedia/en/a/a0/Flag_of_South_Africa.svg',
+      flag: 'https://cdn.britannica.com/27/4227-050-00DBD10A/Flag-South-Africa.jpg',
       population: 59308690,
       region: 'Africa',
       subRegion: 'Southern Africa',
