@@ -1,0 +1,12 @@
+.card-text i {
+    margin-right: 8px;
+  }
+  .card-footer i {
+    cursor: pointer;
+    font-size: 1.5rem; /* Larger icon size */
+  }
+
+  .card-footer span {
+    font-weight: bold; /* Makes the | separator bold */
+    color: #c0c5c9;    /* Slightly lighter color for the separator */
+  }

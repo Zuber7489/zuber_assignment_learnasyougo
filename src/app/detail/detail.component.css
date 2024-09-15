@@ -1,0 +1,115 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .dark-mode-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .dark-mode-button:hover {
+    color: #007bff;
+  }
+  
+  /* Country Info Container Styles */
+  .country-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+    /* background-color: #ffffff; Default background color */
+  }
+  
+  .back-button {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    margin-right: 80%;
+    background-color: white;
+    color: black;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+
+  
+  .content {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .country-flag {
+    border-radius: 8px;
+    width: 300px;
+    height: auto;
+  }
+  
+  .info {
+    margin-left: 24px;
+  }
+  
+  .country-name {
+    font-size: 1.5rem;
+    font-weight: semi-bold;
+  }
+  
+  .info-item {
+    margin: 8px 0;
+    font-size: 1.1rem;
+    color: #333; /* Default text color */
+  }
+  
+  .border-title {
+    margin-top: 16px;
+    font-weight: semi-bold;
+  }
+  
+  .border-countries {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .border-country {
+    background-color: #e6e6e6;
+    color: #333;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  /* Dark Mode Styles */
+  .dark-mode .country-info-container {
+    background-color: #2e2e2e; /* Dark mode background color */
+  }
+  
+  .dark-mode .info-item,
+  .dark-mode .country-name,
+  .dark-mode .border-title {
+    color: #e0e0e0; /* White text color for dark mode */
+  }
+  
+  .dark-mode .border-country {
+    background-color: #3a3a3a; /* Darker background for border countries in dark mode */
+    color: #e0e0e0; /* White text color for border countries */
+  }
+  

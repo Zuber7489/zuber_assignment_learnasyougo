@@ -1,0 +1,27 @@
+<div class="navbar">
+    <h1 class="title">Where in the world?</h1>
+    <button class="dark-mode-button" (click)="toggleDarkMode()">🌙</button>
+  </div>
+  
+  <div class="country-info-container">
+    <button class="back-button" (click)="goBack()">← Back</button>
+    <div class="content">
+      <img [src]="country.flag" [alt]="'Flag of ' + country.name" class="country-flag" />
+      <div class="info">
+        <h2 class="country-name">{{ country.name }}</h2>
+        <p class="info-item">Native Name: {{ country.nativeName }}</p>
+        <p class="info-item">Population: {{ country.population | number }}</p>
+        <p class="info-item">Region: {{ country.region }}</p>
+        <p class="info-item">Sub Region: {{ country.subRegion }}</p>
+        <p class="info-item">Capital: {{ country.capital }}</p>
+        <p class="info-item">Top Level Domain: {{ country.topLevelDomain }}</p>
+        <p class="info-item">Currencies: {{ country.currencies }}</p>
+        <p class="info-item">Languages: {{ country.languages }}</p>
+        <h3 class="border-title">Border Countries:</h3>
+        <div class="border-countries">
+          <span *ngFor="let border of country.borderCountries" class="border-country">{{ border }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
